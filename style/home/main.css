@@ -1,0 +1,134 @@
+.main-bg {
+    background: var(--color-P1);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.main {
+    background-color: white;
+    max-width: 345px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+}
+
+.img-2 {
+    display: none;
+}
+
+.main-product-name {
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.main-content {
+    margin: 30px 30px 0px 30px;
+    padding-bottom: 21px;
+}
+
+.main-title {
+    margin-bottom: 15px;
+}
+
+.main-paragraph {
+    margin-bottom: 21px;
+}
+
+.main-prices {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.price-sale {
+    margin-right: 15px;
+}
+
+.price-full {
+    text-decoration: line-through;
+}
+
+.main-link {
+    display: block;
+    background-color: var(--color-P0);
+    padding: 11px 88px;
+    border-radius: 6px;
+    max-width: 100%;
+    position: relative;
+}
+
+.main-link::before {
+    content: url(../../images/icon-cart.svg);
+    position: absolute;
+    top: 13px;
+    left: 80px;
+}
+
+@media screen and (min-width:1440px) {
+    body {
+       background-color: var(--color-N3);
+    }
+
+    .main-bg {
+        margin: 168px auto;
+        max-width: 1300px;
+        max-height: 720px;
+        box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.080);   
+    }
+
+    .main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 540px;
+        max-height: 415px;
+        margin: 152px auto;
+    }
+
+    .main-content {
+        margin: 0px 30px;
+    }
+
+    .main-product-name {
+        margin-top: 24px;
+    }
+
+    .main-title {
+        margin-top: 20px;
+    }
+
+    .main-paragraph {
+        margin-bottom: 30px;
+    }
+
+    .main-prices {
+        margin-top: 30px;
+    }
+
+    .button {
+        margin-top: 10px;
+    }
+
+    .img-1 {
+        display: none;
+    }
+
+    .img-2 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 7px 0px 0px 7px;
+    }
+
+    .button a {
+        padding: 10px 48px 10px 56px;
+    }
+
+    .main-link::before {
+        content: url(../../images/icon-cart.svg);
+        position: absolute;
+        top: 13px;
+        left: 50px;
+    }
+}

@@ -1,0 +1,15 @@
+/*Global*/
+@import url(global/component.css);
+@import url(global/global.css);
+
+/*Home*/
+@import url(home/main.css);
+
+/*Utilities*/
+
+@import url(utilities/colors.css);
+@import url(utilities/tipography.css);
+
+/*Responsive*/
+
+@import url(home/responsive.css);

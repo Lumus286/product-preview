@@ -1,0 +1,20 @@
+.font-1-l {
+    font: 700 1.83rem/1.77rem 'Fraunces', serif;
+}
+
+.font-1-m {
+    font: 700 1.66rem/1.77rem 'Fraunces', serif;
+}
+
+.font-2-l {
+    font: 700 0.77rem/1.33rem 'Montserrat', serif;
+}
+
+.font-2-m {
+    font: 500 0.77rem/1.33rem 'Montserrat', serif;
+}
+
+.font-2-s {
+    font: 500 0.66rem/1.33rem 'Montserrat', serif;
+    letter-spacing: 0.26rem;
+}
